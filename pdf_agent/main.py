@@ -10,7 +10,7 @@ from langchain_community.document_loaders import PyMuPDFLoader
 
 # ollama imports
 from langchain_ollama import OllamaEmbeddings
-from base_llm import LOCAL_LLM_INSTANCE as model, EMBEDDING_MODEL
+from common.base_llm import LOCAL_LLM_INSTANCE as model, EMBEDDING_MODEL
 
 
 # vector store and embeddings in streamlit session state
